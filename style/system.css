@@ -35,13 +35,14 @@
     --pm-color-900:#87440E;
 
 
-    /*여백*/
-    --space-2X-small:0.125rem;
+    /* 여백 */
+    --space-2x-small:0.125rem;
     --space-x-small:0.25rem;
     --space-small:0.5rem;
     --space-normal:1rem;
     --space-large:2rem;
-    --space-X-large:3rem;
-    --space-2X-large:4rem;
-    --space-3X-large:6rem;
+    --space-x-large:3rem;
+    --space-2x-large:4rem;
+    --space-3x-large:6rem;
+
 }

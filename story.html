@@ -17,12 +17,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     
-    
     <!-- swiper js -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
     <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    
+    <link rel="stylesheet" href="./style/story.css">
 
-    <link rel="stylesheet" href="./style/index.css">
 </head>
 <body>
     <!-- 스마트 기기에서 보이는 메뉴 -->
@@ -205,246 +205,24 @@
         </div>
     </div>
 
-    <!-- 전체 컨텐츠 -->
     <main>
-        <!-- 히어로 배너 -->
-        <!-- Slider main container -->
-        <div class="swiper hero-slider">
-        <!-- Additional required wrapper -->
-            <div class="swiper-wrapper">
-                <!-- Slides -->
-                <div class="swiper-slide">
-                    <img src="./img/slide1-pc.jpg" alt="breadon grand open banner" class="pc">
-                    <img src="./img/slide1-tab.jpg" alt="breadon grand open banner" class="tab">
-                    <img src="./img/slide1-mo.jpg" alt="breadon grand open banner" class="mo">
-                </div>
-                <div class="swiper-slide">
-                    <img src="./img/slide2-pc.jpg" alt="breadon grand open banner" class="pc">
-                    <img src="./img/slide2-tab.jpg" alt="breadon grand open banner" class="tab">
-                    <img src="./img/slide2-mo.jpg" alt="breadon grand open banner" class="mo">
-                </div>
-                <div class="swiper-slide">
-                    <img src="./img/slide3-pc.jpg" alt="breadon grand open banner" class="pc">
-                    <img src="./img/slide3-tab.jpg" alt="breadon grand open banner" class="tab">
-                    <img src="./img/slide3-mo.jpg" alt="breadon grand open banner" class="mo">
-                </div>
-                <div class="swiper-slide">
-                    <img src="./img/slide4-pc.jpg" alt="breadon grand open banner" class="pc">
-                    <img src="./img/slide4-tab.jpg" alt="breadon grand open banner" class="tab">
-                    <img src="./img/slide4-mo.jpg" alt="breadon grand open banner" class="mo">
-                </div>
-            </div>    
-            <div class="pagination"></div>
-        </div>
-        <script>
-            const heroSwiper = new Swiper('.hero-slider', {
-            // Optional parameters
-            // direction: 'vertical',
-            loop: true,
-
-            // If we need pagination
-            pagination: {
-                el: '.pagination',
-            },
-
-            // Navigation arrows
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
-
-            // And if we need scrollbar
-            scrollbar: {
-                el: '.swiper-scrollbar',
-            },
-            });
-        </script>
-
-        <div class="menu-frame best">
+        <!-- story -->
+        <div class="sub-banner">
             <div class="common-frame">
-                <h1 class="font-point">BEST MENU</h1>
-                <p class="fwm">가장 많이 선택되는 브레드온의 메뉴</p>
-                <div class="swiper best-menu-slider">
-                    <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <figure>
-                            <img src="./img/best1.jpg" alt="베스트1">
-                        </figure>
-                        <h4>잠봉뵈르</h4>
-                        <p class="fwm">수제 잠봉 햄과 프랑스산 버터로 완성한 클래식한 조화</p>
-                        <button class="btn-add">+ 담기</button>
-                    </div>
-                    <div class="swiper-slide">
-                        <figure>
-                            <img src="./img/best2.jpg" alt="베스트2">
-                        </figure>
-                        <h4>아보카도 에그</h4>
-                        <p class="fwm">크리미한 아보카도와 반숙 에그가 어우러진 부드러운 식감</p>
-                        <button class="btn-add">+ 담기</button>
-                    </div>
-                    <div class="swiper-slide">
-                        <figure>
-                            <img src="./img/best3.jpg" alt="베스트3">
-                        </figure>
-                        <h4>치킨 페스토</h4>
-                        <p class="fwm">허브 페스토와 촉촉한 치킨으로 산뜻하게 즐기는 풍미</p>
-                        <button class="btn-add">+ 담기</button>
-                    </div>
-                    <div class="swiper-slide">
-                       <figure>
-                            <img src="./img/best4.jpg" alt="베스트4">
-                        </figure>
-                        <h4>브리 무화과 발사믹</h4>
-                        <p class="fwm">브리 치즈와 제철 무화과, 발사믹이 어우러진 달콤한 조화</p>
-                        <button class="btn-add">+ 담기</button>
-                    </div>
-                    <div class="swiper-slide">
-                       <figure>
-                            <img src="./img/best5.jpg" alt="베스트5">
-                        </figure>
-                        <h4>레몬 로스트 치킨</h4>
-                        <p class="fwm">레몬 크림소스와 로스트 치킨의 상큼한 밸런스</p>
-                        <button class="btn-add">+ 담기</button>
-                    </div>
-                    <div class="swiper-slide">
-                       <figure>
-                            <img src="./img/best6.jpg" alt="베스트6">
-                        </figure>
-                        <h4>발사믹 머쉬룸 리코타</h4>
-                        <p class="fwm">발사믹 머쉬룸과 리코타 치즈의 깊고 고소한 풍미</p>
-                        <button class="btn-add">+ 담기</button>
-                    </div>
-                </div>
-            </div>
-            
-    <section class="bread-choice">
-        <div class="common-frame">
-            <h1 class="font-point">Choose Your Bread</h1>
-            <p class="bread-sub">샌드위치 속 재료는 그대로, 취향에 맞는 천연발효종 빵으로 선택해보세요.</p>
-
-        <div class="bread-visual">
-            <img src="./img/bread-line.jpg" alt="빵 종류 안내 이미지">
-        </div>
-        <ul class="bread-name-list">
-            <li>Fig Ciabatta</li>
-            <li>Olive Ciabatta</li>
-            <li>Focaccia</li>
-            <li>Campagne</li>
-            <li>Whole Wheat</li>
-            <li>Sourdough</li>
-        </ul>
-    </div>
-</section>
-
-
-    <script>
-        const bestMenuSlider = new Swiper(".best-menu-slider",{
-            slidesPerView: 1.3,
-            spaceBetween: 14,
-            breakpoints:{
-                400:{
-                    // 400화면너비보다 클 때
-                    slidesPerView: 2.2,
-                    spaceBetween: 14,
-                },
-                768:{
-                    // 768화면너비보다 클 때
-                    slidesPerView: 4,
-                    spaceBetween: 18,
-                },
-                1440:{
-                    // 1440화면너비보다 클 때
-                    slidesPerView: 4,
-                    spaceBetween: 20,
-                }
-            }
-        })
-    </script>
-    </div>
-</div>
-
-        
-
-        <div class="story">
-            <div class="common-frame">
-                <h1 class="font-point">BREAD:ON Brand Story</h1>
-                <div class="story-frame">
-                    <div class="txt-story">
-                        <h2>Bread for everyday life</h2>
-                        <h4>Designed for Your Daily Rhythm</h4>
-                        <p>바쁜 일상 속에서도 끼니를 거르지 않도록, 천연발효종으로 완성한 빵을 빠르고 편리하게 받아 건강한 한 끼를 즐길 수 있습니다.</p>
-                        <p>천천히 발효한 깊은 풍미와 균형 잡힌 구성으로, 브레드온은 빵을 넘어 당신의 하루 리듬을 설계합니다.</p>
-                    </div>
-                    <figure class="img-story">
-                        <img src="./img/story.jpg" alt="브레드온 인테리어 사진">
-                    </figure>
-                </div>
-                <div class="philo">
-                    <ul class="philo-list">
-                        <li>
-                            <h3>1.Natural Sourdough</h3>
-                            <div>
-                                <p class="fwb">인공 첨가물 없이 완성하는 천연발효종</p>
-                                <p class="fwr">
-                                    밀, 물, 소금, 그리고 직접 키운 천연발효종만으로 오랜 시간 천천히 발효해 깊은 풍미와 편안한 소화를 생각한 빵을 만듭니다.
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <h3>2.Daily Delivery</h3>
-                            <div>
-                                <p class="fwb">매일 신선하게 받아보는 빵</p>
-                                <p class="fwr">
-                                    매일 정성껏 구운 빵을 집과 사무실 어디에서든 기다림 없이 받아볼 수 있도록 가장 편리한 방식으로 전달합니다.
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <h3>3.Balanced Bread Meal</h3>
-                            <div>
-                                <p class="fwb">매일 먹어도 좋은 균형 잡힌 한 끼</p>
-                                <p class="fwr">
-                                    천연발효종 빵과 샌드위치, 커피까지 간편하지만 균형 있게 즐길 수 있는 데일리 한 끼를 제안합니다.
-                                </p>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
+                <h1 class="font-point">BREAD:ON</h1>
             </div>
         </div>
 
-
-        <div class="franchise">
+        <!-- core value -->
+         <div class="core">
             <div class="common-frame">
-                <h1>잘 되는 매장에는, 구조가 있습니다.</h1>
-                <p class="fwm">빠른 회전율, 명확한 타겟, 단순한 운영. <br> 브레드온은 이미 검증된 구조입니다.</p>
-                <a href="#" class="btn-style">가맹 상담 신청 <img src="./img/arrow-btn.svg" alt="바로가기 화살표"></a>
-                <h3 class="font-point">BREAD:ON 선택해야 하는 이유</h3>
-                <ul class="why">
-                    <li>
-                        <p class="fwb">검증된 메뉴 구조</p>
-                        <p class="fwm">직장인 타깃의 샌드위치 메뉴로 안정적인 판매 구조입니다. </p>
-                    </li>
-                    <li>
-                        <p class="fwb">차별화된 천연발효종</p>
-                        <p class="fwm">천연발효종을 기반으로 한 메뉴로 경쟁 매장과 차별화됩니다.</p>
-                    </li>
-                    <li>
-                        <p class="fwb">단순한 운영 시스템</p>
-                        <p class="fwm">복잡하지 않은 조리 방식으로 누구나 쉽게 운영할 수 있습니다.</p>
-                    </li>
-                    <li>
-                        <p class="fwb">현실적인 초기 투자 구조</p>
-                        <p class="fwm">합리적인 초기 투자 비용으로 빠른 수익 회수를 기대할 수 있습니다.</p>
-                    </li>
-                </ul>
+                
             </div>
-        </div>
-
+         </div>
     </main>
 
     <!-- 푸터 -->
-     <footer>
+    <footer>
         <div class="common-frame">
             <div class="ft1">
                 <ul class="ft-menu">
@@ -550,6 +328,6 @@
             </div>
             <div class="ft4 b2">© 2026 BREAD:ON. 취업용도의 포토폴리오 웹사이트입니다.</div>
         </div>
-     </footer>
+    </footer>
 </body>
 </html>

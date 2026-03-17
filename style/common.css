@@ -2,6 +2,9 @@ html{
     font-family: 'Pretendard',sans-serif;
     font-size:var(--basic-font-pc);
 }
+main{
+    min-height: 60vh;
+}
 h1{
     font-size: var(--fs-h1);
     font-weight: var(--fw-bold);
@@ -29,6 +32,11 @@ p{
 .fwb{font-weight: var(--fw-bold);}
 .de{
     font-size:var(--fs-det);
+}
+.font-point{
+    font-family: 'Noto Serif', serif;
+    font-weight: 500;
+    letter-spacing: 0.02em;
 }
 .common-frame{
     width:1440px;
@@ -64,6 +72,7 @@ main{
     background-color: var(--point-color);
     color: #fff;
 }
+.ptc{color:var(--point-color)}
 
 @media (max-width:1440px){
     main{
