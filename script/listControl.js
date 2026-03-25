@@ -23,9 +23,15 @@ document.addEventListener("DOMContentLoaded",()=>{
     })
     list.innerHTML = result
 
-    // 상품 개수를 데이터 개수에 맞게 입력하는 코드
+    // 상품 개수를 데이터 갯수에 맞게 입력하는 코드
+    document.querySelector("#current-count").innerHTML = listArray.length
+    
+    
+
+
+    
 
 
 
-    document.ATTRIBUTE_NODE.querySelector("#cuttent-coulistArray.length
+
 })
