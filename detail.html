@@ -25,8 +25,8 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
 
     <script src="./script/listArray.js"></script>
-    <script src="./script/listControl.js"></script>
-    <link rel="stylesheet" href="./style/index.css">
+    <script src="./script/detail-recomand.js"></script>
+    <link rel="stylesheet" href="./style/detail.css">
 </head>
 <body>
     <!-- 스마트 기기에서 보이는 메뉴 -->
@@ -208,6 +208,210 @@
             <span class="btn-menu"><img src="./img/btn-menu.svg" alt="전체메뉴버튼"></span>
         </div>
     </div>
+
+    <main>
+        <div class="product1">
+            <div class="common-frame">
+                <figure class="img-pro-thumb">
+                    <img src="./img/pro-thumb-detail.jpg" alt="상품 섬네일 이미지">
+                </figure>
+                <div class="txt-pro">
+                    <h1>잠봉뵈르 샌드위치</h1>
+                    <p class="fwm">수제 잠봉 햄과 프랑스산 버터로 완성한 클래식한 조화</p>
+                    <dl class="price-table">
+                        <dt>판매가</dt>
+                        <dd>7,800원</dd>
+                        <dt>배송비</dt>
+                        <dd>
+                            1,000원
+                            <span>(20,000원 이상 구매 시 무료배송)</span>
+                        </dd>
+                    </dl>
+                    <div class="sell-info">
+                        <div class="fwb">잠봉뵈르 샌드위치</div>
+                        <div>
+                            <div class="box-number">
+                                <span class="btn-minus">
+                                    <img src="./img/ic_baseline-minus.svg" alt="감소 버튼">
+                                </span>
+                                <span class="current-count">1</span>
+                                <span class="btn-plus">
+                                    <img src="./img/ic_baseline-plus.svg" alt="증가 버튼">
+                                </span>
+                            </div>
+                        </div>
+                        <div class="fwb">7,800원</div>
+                    </div>
+                    <dl class="price-result">
+                        <dt>전체금액</dt>
+                        <dd>7,800원</dd>
+                    </dl>
+                    <ul class="btns-buy">
+                        <li>
+                            <a href="#">
+                                <img src="./img/icn-heart.svg" alt="관심상품 등록 버튼">
+                            </a>
+                        </li>
+                        <li><a href="#">장바구니</a></li>
+                        <li><a href="#">구매하기</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="common-frame sticky-menu wrap">
+            <ul class="sticky-menu">
+                <li><a href="#">많이 찾는 제품</a></li>
+                <li><a href="#">영양 성분</a></li>
+                <li><a href="#">리뷰</a></li>
+            </ul>
+        </div>
+
+        <div class="recomd-product">
+            <div class="common-frame">
+                <h2>많이 찾는 제품</h2>
+                <ul class="list-grid"></ul>
+            </div>
+        </div>
+
+        
+
+        <div class="nutri">
+            <div class="common-frame">
+                <h2>영양 성분</h2>
+                <div class="nutri-inner">
+                    <div class="nutri1">
+                        <h3>잠봉뵈르</h3>
+                        <p>수제 잠봉 햄과 프랑스산 버터로 완성한 클래식한 조화</p>
+                        <table>
+                            <caption>1회 제공량 기준</caption>
+                            <tr>
+                                <th>성분명</th>
+                                <th>함량</th>
+                            </tr>
+                            <tr>
+                                <td class="fwb">열량 (Calories)</td>
+                                <td class="fwm">520kcal</td>
+                            </tr>
+                            <tr>
+                                <td class="fwb">탄수화물 (Carbohydrates)</td>
+                                <td class="fwm">45 g</td>
+                            </tr>
+                            <tr>
+                                <td class="fwb">단백질 (Protein)</td>
+                                <td class="fwm">18 g</td>
+                            </tr>
+                            <tr>
+                                <td class="fwb">지방 (Fat)</td>
+                                <td class="fwm">30 g</td>
+                            </tr>
+                            <tr>
+                                <td class="fwb">포화지방 (Saturated Fat)</td>
+                                <td class="fwm">15 g</td>
+                            </tr>
+                            <tr>
+                                <td class="fwb">당류 (Sugars)</td>
+                                <td class="fwm">3 g</td>
+                            </tr>
+                            <tr>
+                                <td class="fwb">나트륨 (Sodium)</td>
+                                <td class="fwm">950 mg</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="nutri2">
+                        <img src="./img/nut-img.jpg" alt="영양 성분">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="review">
+            <div class="common-frame">
+                <h2>리뷰</h2>
+                <div class="review-wrap">
+                    <div class="rev-con">
+                        <div class="rev-user-info">
+                            <h4>morningrush_91</h4>
+                            <p>2026.03.21</p>
+                            <div class="likes">
+                                <img src="./img/material-symbols_star.svg" alt="좋아요 별">
+                                <img src="./img/material-symbols_star.svg" alt="좋아요 별">
+                                <img src="./img/material-symbols_star.svg" alt="좋아요 별">
+                                <img src="./img/material-symbols_star.svg" alt="좋아요 별">
+                                <img src="./img/material-symbols_star.svg" alt="좋아요 별">
+                            </div>  
+                        </div>
+                        <div class="rev-desc">
+                            <h4>morningrush_91</h4>
+                            <div class="rev-thumb-list-wrap">
+                                <ul class="rev-thumb-list">
+                                    <li><img src="./img/rev-1-1.jpg" alt="리뷰이미지1"></li>
+                                    <li><img src="./img/rev-1-2.jpg" alt="리뷰이미지2"></li>
+                                    <li><img src="./img/rev-1-3.jpg" alt="리뷰이미지3"></li>
+                                </ul>
+                            </div>
+                            <p>아침마다 바빠서 제대로 못 챙겨 먹었는데 이건 하나만 먹어도 든든하고 속도 편해서 부담 없이 먹기 좋고 잠봉이랑 버터 조합도 깔끔해서 요즘 아침마다 자연스럽게 찾게 되는 메뉴예요.</p>
+                        </div>
+                    </div>
+                    <div class="rev-con">
+                        <div class="rev-user-info">
+                            <h4>workday_bite</h4>
+                            <p>2026.03.22</p>
+                            <div class="likes">
+                                <img src="./img/material-symbols_star.svg" alt="좋아요 별">
+                                <img src="./img/material-symbols_star.svg" alt="좋아요 별">
+                                <img src="./img/material-symbols_star.svg" alt="좋아요 별">
+                                <img src="./img/material-symbols_star.svg" alt="좋아요 별">
+                                <img src="./img/material-symbols_star.svg" alt="좋아요 별">
+                            </div>  
+                        </div>
+                        <div class="rev-desc">
+                            <h4>workday_bite</h4>
+                            <div class="rev-thumb-list-wrap">
+                                <ul class="rev-thumb-list">
+                                    <li><img src="./img/rev-2-1.jpg" alt="리뷰이미지1"></li>
+                                    <li><img src="./img/rev-2-2.jpg" alt="리뷰이미지2"></li>
+                                    <li><img src="./img/rev-2-3.jpg" alt="리뷰이미지3"></li>
+                                </ul>
+                            </div>
+                            <p>출근하기 전에 들러서 매장에서 먹고 갔는데 빵이 자극적이지 않고 전체적으로 균형이 좋아서 부담 없이 먹기 좋았고 매일 먹어도 질리지 않을 것 같다는 생각이 들어서 앞으로 자주 들르게 될 것 같아요.</p>
+                        </div>
+                    </div>
+                    <div class="rev-con">
+                        <div class="rev-user-info">
+                            <h4>daily_morning_k</h4>
+                            <p>2026.03.23</p>
+                            <div class="likes">
+                                <img src="./img/material-symbols_star.svg" alt="좋아요 별">
+                                <img src="./img/material-symbols_star.svg" alt="좋아요 별">
+                                <img src="./img/material-symbols_star.svg" alt="좋아요 별">
+                                <img src="./img/material-symbols_star.svg" alt="좋아요 별">
+                                <img src="./img/material-symbols_star.svg" alt="좋아요 별">
+                            </div>  
+                        </div>
+                        <div class="rev-desc">
+                            <h4>daily_morning_k</h4>
+                            <div class="rev-thumb-list-wrap">
+                                <ul class="rev-thumb-list">
+                                    <li><img src="./img/rev-3-1.jpg" alt="리뷰이미지1"></li>
+                                    <li><img src="./img/rev-3-2.jpg" alt="리뷰이미지2"></li>
+                                    <li><img src="./img/rev-3-3.jpg" alt="리뷰이미지3"></li>
+                                </ul>
+                            </div>
+                            <p>아침마다 바빠서 제대로 못 챙겨 먹었는데 이건 하나만 먹어도 든든하고 속도 편해서 부담 없이 먹기 좋고 잠봉이랑 버터 조합도 깔끔해서 요즘 아침마다 자연스럽게 찾게 되는 메뉴예요.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+    </main>
+
+
+
 
     <!-- 푸터 -->
     <footer>
