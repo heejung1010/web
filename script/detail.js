@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded",()=>{
     const product1 = document.querySelector(".product1")
     product1.innerHTML = `<div class="common-frame">
                 <figure class="img-pro-thumb">
-                    <img src="./img/${result.pThumbnail}" alt="${result.pName} 이미지">
+                    <img src="./img/${result.pDetailImg}" alt="${result.pName} 이미지">
                 </figure>
                 <div class="txt-pro">
                     <h1>${result.pName}</h1>

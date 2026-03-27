@@ -5,7 +5,8 @@ let listArray = [
         pDesc:"수제 잠봉 햄과 프랑스산 버터로 완성한 클래식한 조화",
         pPrice: 7800,
         pThumbnail: "list-thumb-Jambon.jpg",
-        plike:false
+        plike:false,
+        pDetailImg: "detail-Jambon.jpg" 
     },
     {
         pid:1,
@@ -13,7 +14,8 @@ let listArray = [
         pDesc:"크리미한 아보카도와 반숙 에그가 어우러진 부드러운 식감",
         pPrice: 5500,
         pThumbnail: "list-thumb-egg.jpg",
-        plike:false
+        plike:false,
+        pDetailImg:"detail-egg.jpg"
     },
     {
         pid:2,
@@ -21,7 +23,8 @@ let listArray = [
         pDesc:"허브 페스토와 촉촉한 치킨으로 산뜻하게 즐기는 풍미",
         pPrice: 6500,
         pThumbnail: "list-thumb-Chicken.jpg",
-        plike:false
+        plike:false,
+        pDetailImg:"detail-Chicken.jpg"
     },
     {
         pid:3,
@@ -29,7 +32,8 @@ let listArray = [
         pDesc:"발사믹 머쉬룸과 리코타 치즈의 깊고 고소한 풍미",
         pPrice: 6500,
         pThumbnail: "list-thumb-Mushroom.jpg",
-        plike:false
+        plike:false,
+        pDetailImg:"detail-Mushroom.jpg"
     },
     {
         pid:4,
@@ -37,7 +41,8 @@ let listArray = [
         pDesc:"브리 치즈와 무화과, 발사믹의 달콤한 조화",
         pPrice: 6900,
         pThumbnail: "list-thumb-Brie.jpg",
-        plike:false
+        plike:false,
+        pDetailImg:"detail-Brie.jpg"
     },
     {
         pid:5,
@@ -45,7 +50,8 @@ let listArray = [
         pDesc:"레몬 크림 소스와 로스트 치킨의 상큼한 밸런스",
         pPrice: 6500,
         pThumbnail: "list-thumb-Lemon.jpg",
-        plike:false
+        plike:false,
+        pDetailImg:"detail-Lemon.jpg"
     },
     {
         pid:6,
@@ -53,7 +59,8 @@ let listArray = [
         pDesc:"꿀과 리코타, 신선한 사과를 더한 산뜻한 밸런스",
         pPrice: 6900,
         pThumbnail: "list-thumb-Apple.jpg",
-        plike:false
+        plike:false,
+        pDetailImg:"detail-Apple.jpg"
     },
     {
         pid:7,
@@ -61,7 +68,8 @@ let listArray = [
         pDesc:"갈릭버터 새우에 바질 향을 더한 깊은 맛",
         pPrice: 7800,
         pThumbnail: "list-thumb-Shrimp.jpg",
-        plike:false
+        plike:false,
+        pDetailImg:"detail-Shrimp.jpg"
     },
     {
         pid:8,
@@ -69,7 +77,8 @@ let listArray = [
         pDesc:"훈제연어와 딜 크림치즈의 상큼한 레이어",
         pPrice: 7800,
         pThumbnail: "list-thumb-Salmon.jpg",
-        plike:false
+        plike:false,
+        pDetailImg:"detail-Salmon.jpg"
     },
     {
         pid:9,
@@ -77,7 +86,8 @@ let listArray = [
         pDesc:"풍성한 비프에 치즈를 더한 진한 만족감",
         pPrice: 8500,
         pThumbnail: "list-thumb-Beef.jpg",
-        plike:false
+        plike:false,
+        pDetailImg:"detail-Beff.jpg"
     },
     {
         pid:10,
@@ -85,7 +95,8 @@ let listArray = [
         pDesc:"바삭한 치킨에 매콤한 소스를 더한 강렬한 맛",
         pPrice: 8500,
         pThumbnail: "list-thumb-Nashville.jpg",
-        plike:false
+        plike:false,
+        pDetailImg:"detail-Nashville.jpg"
     },
     {
         pid:11,
@@ -93,7 +104,8 @@ let listArray = [
         pDesc:"부드러운 에그와 감자가 어우러진 든든한 구성",
         pPrice: 5500,
         pThumbnail: "list-thumb-Potato.jpg",
-        plike:false
+        plike:false,
+        pDetailImg:"detail-Potato.jpg"
     },
 
 ]
