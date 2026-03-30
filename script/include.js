@@ -1,5 +1,5 @@
 // HTML 파일을 동적으로 로드하는 함수
-async function includeHTML(selector, url,callback) {
+async function includeHTML(selector, url, callback) {
     const el = document.querySelector(selector);
     if (!el) return;
     try {
@@ -14,8 +14,8 @@ async function includeHTML(selector, url,callback) {
     }
 }
 
-// DOMContentLoaded 이벤트에서 헤더 로드
+// DOMContentLoaded 이벤트에서 헤더와 푸터 로드
 document.addEventListener('DOMContentLoaded', () => {
-    includeHTML('#include-header', './header.html');
-    includeHTML('#include-footer','./footer.html')
+    includeHTML('#include-header', './header.html', header);
+    includeHTML('#include-footer','./footer.html');
 });

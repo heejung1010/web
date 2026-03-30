@@ -143,6 +143,7 @@
 .menu-frame h1{
     margin-bottom: var(--space-small);
     color: var(--point-color);
+    margin-top: var(--space-3x-large);
 }
 .menu-frame h1+p{
     margin-bottom: var(--space-x-large);
