@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bread:on</title>
+    <link rel="stylesheet" href="./style/font.css">
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/system.css">
+    <link rel="stylesheet" href="./style/common.css">
+    <link rel="stylesheet" href="./style/header.css">
+    <link rel="stylesheet" href="./style/footer.css">
+    <script src="./script/header.js"></script>
+
+    <!-- 폰트 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    
+    <!-- swiper js -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+    <link rel="stylesheet" href="./style/event.css">
+    <script src="./script/include.js"></script>
+</head>
+<body>
+    <div id="include-header"></div>
+    <main>
+        <div class="sub-banner">
+            <!-- <div class="common-frame">
+                <h1>지금 이 순간, 더 맛있고 더 특별하게</h1>
+            </div> -->
+        </div>
+        <div class="event1">
+            <div class="common-frame">
+                <h3>이벤트</h3>
+                <p>일상의 품격을 높이는 브레드온의 혜택</p>
+                <div class="event1-content">
+                    <div class="event1-img-slider">
+                        <div class="swiper event1-img-swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="./img/event-slide1.jpg" alt="브레드온의 인기 메뉴를 세트로 구성해 더 합리적인 가격으로 만나보세요">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./img/event-slide1.jpg" alt="브레드온의 인기 메뉴를 세트로 구성해 더 합리적인 가격으로 만나보세요">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./img/event-slide1.jpg" alt="브레드온의 인기 메뉴를 세트로 구성해 더 합리적인 가격으로 만나보세요">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="event1-txt-slider">
+                        <div class="swiper event1-txt-swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <h4>샌드위치 세트 할인 이벤트</h4>
+                                    <p>브레드온의 인기 메뉴를 세트로 구성해 <br> 더 합리적인 가격으로 만나보세요</p>
+                                </div>
+                                <div class="swiper-slide">
+                                    <h4>샌드위치 세트 할인 이벤트</h4>
+                                    <p>브레드온의 인기 메뉴를 세트로 구성해 <br> 더 합리적인 가격으로 만나보세요</p>
+                                </div>
+                                <div class="swiper-slide">
+                                    <h4>샌드위치 세트 할인 이벤트</h4>
+                                    <p>브레드온의 인기 메뉴를 세트로 구성해 <br> 더 합리적인 가격으로 만나보세요</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            const event1ImgSlider = new Swiper(".event1-img-swiper",{
+                loop: true,
+                autoplay: {
+                    delay: 2500,
+                    disableOnInteraction: false,
+                },
+                speed:1000
+            })
+            const event1TxtSlider = new Swiper(".event1-txt-swiper",{
+                effect: "fade",
+                speed:1000
+            })
+            event1ImgSlider.on('slideChange', function () {
+                // console.log(event1ImgSlider.realIndex);
+                event1TxtSlider.slideTo(event1ImgSlider.realIndex, 1000)
+            });
+        </script>
+        <div class="event2">
+            <div class="common-frame">
+                <h3>진행 중인 이벤트</h3>
+                <ul class="event-grid">
+                    <li>
+                        <figure>
+                            <img src="./img/event1.jpg" alt="SNS 팔로우 이벤트 SNS 팔로우 시 아메리카노 제공">
+                        </figure>
+                        <h4>SNS 팔로우 이벤트</h4>
+                        <p>SNS 팔로우 시 아메리카노 제공</p>
+                    </li>
+                    
+                    <li>
+                        <figure>
+                            <img src="./img/event2.jpg" alt="타임 세일 이벤트 14시–16시 한정, 인기 샌드위치 단품을 20% 특별 할인으로 제공">
+                        </figure>
+                        <h4>타임 세일 이벤트</h4>
+                        <p>14시–16시 한정, 인기 샌드위치 단품을 20% 특별 할인으로 제공</p>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="./img/event3.jpg" alt="신규 고객 웰컴 이벤트 신규 고객 첫 구매 시 전 메뉴 10% 할인 + 음료 1,000원 할인">
+                        </figure>
+                        <h4>신규 고객 웰컴 이벤트</h4>
+                        <p>신규 고객 첫 구매 시 전 메뉴 10% 할인 + 음료 1,000원 할인</p>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="./img/event4.jpg" alt="정기구독 무료배송 혜택 정기구독 신청 시 전 상품 무료배송 혜택 제공">
+                        </figure>
+                        <h4>정기구독 무료배송 혜택</h4>
+                        <p>정기구독 신청 시 전 상품 무료배송 혜택 제공</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <!-- 푸터 -->
+    <div id="include-footer"></div>
+
+</body>
+</html>
