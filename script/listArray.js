@@ -190,6 +190,132 @@ let listArray = [
         pThumbnail: "list-bread6.jpg",
         plike:false,
         category:"bread"
+    },
+    {
+        pid:20,
+        pName:"마들렌",
+        pDesc:"천연발효종으로 더 편안하게 즐기는 촉촉한 케이크",
+        pPrice: 2800 / ea,
+        pThumbnail: "list-pastries1.jpg",
+        plike:false,
+        category:"pastries"
+    },
+    {
+        pid:21,
+        pName:"휘낭시에",
+        pDesc:"깊고 진한 풍미가 살아있는 프리미엄 발효 디저트",
+        pPrice: 2800 / ea,
+        pThumbnail: "list-pastries2.jpg",
+        plike:false,
+        category:"pastries"
+    },
+    {
+        pid:22,
+        pName:"스콘",
+        pDesc:"담백함 속에 은은한 고소함을 담은 클래식 베이크",
+        pPrice: 3000 / ea,
+        pThumbnail: "list-pastries3.jpg",
+        plike:false,
+        category:"pastries"
+    },
+    {
+        pid:23,
+        pName:"까눌레",
+        pDesc:"바삭함과 쫀득함이 공존하는 정통 프렌치 디저트",
+        pPrice: 3300 / ea,
+        pThumbnail: "list-pastries4.jpg",
+        plike:false,
+        category:"pastries"
+    },
+    {
+        pid:24,
+        pName:"쿠키",
+        pDesc:"순수한 풍미를 담은 프리미엄 수제 쿠키",
+        pPrice: 5000 / "1 Set",
+        pThumbnail: "list-pastries5.jpg",
+        plike:false,
+        category:"pastries"
+    },
+    {
+        pid:25,
+        pName:"버터 샌드 쿠키",
+        pDesc:"부드러운 크림과 쿠키가 어우러진 프리미엄 샌드 디저트",
+        pPrice: 3800 / ea,
+        pThumbnail: "list-pastries6.jpg",
+        plike:false,
+        category:"pastries"
+    },
+    {
+        pid:26,
+        pName:"다쿠아즈",
+        pDesc:"가볍고 섬세한 머랭과 크림의 균형 잡힌 디저트",
+        pPrice: 3500 / ea,
+        pThumbnail: "list-pastries7.jpg",
+        plike:false,
+        category:"pastries"
+    },
+    {
+        pid:27,
+        pName:"파운드 케이크",
+        pDesc:"깊고 묵직한 풍미의 클래식 발효 케이크",
+        pPrice: 3800 / ea,
+        pThumbnail: "list-pastries8.jpg",
+        plike:false,
+        category:"pastries"
+    },
+    {
+        pid:28,
+        pName:"아메리카노",
+        pDesc:"깔끔하고 깊은 풍미의 블랙 커피",
+        pPrice: 2000,
+        pThumbnail: "list-drink1.jpg",
+        plike:false,
+        category:"drink"
+    },
+    {
+        pid:29,
+        pName:"라떼",
+        pDesc:"부드러운 우유와 에스프레소의 균형",
+        pPrice: 2500,
+        pThumbnail: "list-drink2.jpg",
+        plike:false,
+        category:"drink"
+    },
+    {
+        pid:30,
+        pName:"바닐라 라떼",
+        pDesc:"바닐라빈이 들어간 부드러운 라떼",
+        pPrice: 2800,
+        pThumbnail: "list-drink3.jpg",
+        plike:false,
+        category:"drink"
+    },
+    {
+        pid:31,
+        pName:"카라멜 마끼아또",
+        pDesc:"달콤한 카라멜과 부드러운 밀크 커피",
+        pPrice: 2800,
+        pThumbnail: "list-drink4.jpg",
+        plike:false,
+        category:"drink"
+    },
+    {
+        pid:32,
+        pName:"초코 라떼",
+        pDesc:"진한 초콜릿 풍미의 부드러운 라떼",
+        pPrice: 2500,
+        pThumbnail: "list-drink5.jpg",
+        plike:false,
+        category:"drink"
+    },
+    {
+        pid:33,
+        pName:"오렌지 주스",
+        pDesc:"100% 오렌지 착즙 주스",
+        pPrice: 3000,
+        pThumbnail: "list-drink6.jpg",
+        plike:false,
+        category:"drink"
     }
     
 
