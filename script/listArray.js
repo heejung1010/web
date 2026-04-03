@@ -7,7 +7,7 @@ let listArray = [
         pThumbnail: "list-thumb-Jambon.jpg",
         plike:false,
         pDetailImg: "detail-Jambon.jpg",
-        category:"sandwich"
+        category:"sandwitch"
     },
     {
         pid:1,
@@ -17,7 +17,7 @@ let listArray = [
         pThumbnail: "list-thumb-egg.jpg",
         plike:false,
         pDetailImg:"detail-egg.jpg",
-        category:"sandwich"
+        category:"sandwitch"
     },
     {
         pid:2,
@@ -27,7 +27,7 @@ let listArray = [
         pThumbnail: "list-thumb-Chicken.jpg",
         plike:false,
         pDetailImg:"detail-Chicken.jpg",
-        category:"sandwich"
+        category:"sandwitch"
     },
     {
         pid:3,
@@ -37,7 +37,7 @@ let listArray = [
         pThumbnail: "list-thumb-Mushroom.jpg",
         plike:false,
         pDetailImg:"detail-Mushroom.jpg",
-        category:"sandwich"
+        category:"sandwitch"
     },
     {
         pid:4,
@@ -47,7 +47,7 @@ let listArray = [
         pThumbnail: "list-thumb-Brie.jpg",
         plike:false,
         pDetailImg:"detail-Brie.jpg",
-        category:"sandwich"
+        category:"sandwitch"
     },
     {
         pid:5,
@@ -57,7 +57,7 @@ let listArray = [
         pThumbnail: "list-thumb-Lemon.jpg",
         plike:false,
         pDetailImg:"detail-Lemon.jpg",
-        category:"sandwich"
+        category:"sandwitch"
     },
     {
         pid:6,
@@ -67,7 +67,7 @@ let listArray = [
         pThumbnail: "list-thumb-Apple.jpg",
         plike:false,
         pDetailImg:"detail-Apple.jpg",
-        category:"sandwich"
+        category:"sandwitch"
     },
     {
         pid:7,
@@ -77,7 +77,7 @@ let listArray = [
         pThumbnail: "list-thumb-Shrimp.jpg",
         plike:false,
         pDetailImg:"detail-Shrimp.jpg",
-        category:"sandwich"
+        category:"sandwitch"
     },
     {
         pid:8,
@@ -87,7 +87,7 @@ let listArray = [
         pThumbnail: "list-thumb-Salmon.jpg",
         plike:false,
         pDetailImg:"detail-Salmon.jpg",
-        category:"sandwich"
+        category:"sandwitch"
     },
     {
         pid:9,
@@ -97,7 +97,7 @@ let listArray = [
         pThumbnail: "list-thumb-Beef.jpg",
         plike:false,
         pDetailImg:"detail-Beff.jpg",
-        category:"sandwich"
+        category:"sandwitch"
     },
     {
         pid:10,
@@ -107,7 +107,7 @@ let listArray = [
         pThumbnail: "list-thumb-Nashville.jpg",
         plike:false,
         pDetailImg:"detail-Nashville.jpg",
-        category:"sandwich"
+        category:"sandwitch"
     },
     {
         pid:11,
@@ -117,7 +117,7 @@ let listArray = [
         pThumbnail: "list-thumb-Potato.jpg",
         plike:false,
         pDetailImg:"detail-Potato.jpg",
-        category:"sandwich"
+        category:"sandwitch"
     },
     {
         pid:12,
@@ -195,7 +195,7 @@ let listArray = [
         pid:20,
         pName:"마들렌",
         pDesc:"천연발효종으로 더 편안하게 즐기는 촉촉한 케이크",
-        pPrice: 2800 / ea,
+        pPrice: 2800,
         pThumbnail: "list-pastries1.jpg",
         plike:false,
         category:"pastries"
@@ -204,7 +204,7 @@ let listArray = [
         pid:21,
         pName:"휘낭시에",
         pDesc:"깊고 진한 풍미가 살아있는 프리미엄 발효 디저트",
-        pPrice: 2800 / ea,
+        pPrice: 2800,
         pThumbnail: "list-pastries2.jpg",
         plike:false,
         category:"pastries"
@@ -213,7 +213,7 @@ let listArray = [
         pid:22,
         pName:"스콘",
         pDesc:"담백함 속에 은은한 고소함을 담은 클래식 베이크",
-        pPrice: 3000 / ea,
+        pPrice: 3000,
         pThumbnail: "list-pastries3.jpg",
         plike:false,
         category:"pastries"
@@ -222,7 +222,7 @@ let listArray = [
         pid:23,
         pName:"까눌레",
         pDesc:"바삭함과 쫀득함이 공존하는 정통 프렌치 디저트",
-        pPrice: 3300 / ea,
+        pPrice: 3300,
         pThumbnail: "list-pastries4.jpg",
         plike:false,
         category:"pastries"
@@ -231,7 +231,7 @@ let listArray = [
         pid:24,
         pName:"쿠키",
         pDesc:"순수한 풍미를 담은 프리미엄 수제 쿠키",
-        pPrice: 5000 / "1 Set",
+        pPrice: 5000,
         pThumbnail: "list-pastries5.jpg",
         plike:false,
         category:"pastries"
@@ -240,7 +240,7 @@ let listArray = [
         pid:25,
         pName:"버터 샌드 쿠키",
         pDesc:"부드러운 크림과 쿠키가 어우러진 프리미엄 샌드 디저트",
-        pPrice: 3800 / ea,
+        pPrice: 3800,
         pThumbnail: "list-pastries6.jpg",
         plike:false,
         category:"pastries"
@@ -249,7 +249,7 @@ let listArray = [
         pid:26,
         pName:"다쿠아즈",
         pDesc:"가볍고 섬세한 머랭과 크림의 균형 잡힌 디저트",
-        pPrice: 3500 / ea,
+        pPrice: 3500,
         pThumbnail: "list-pastries7.jpg",
         plike:false,
         category:"pastries"
@@ -258,7 +258,7 @@ let listArray = [
         pid:27,
         pName:"파운드 케이크",
         pDesc:"깊고 묵직한 풍미의 클래식 발효 케이크",
-        pPrice: 3800 / ea,
+        pPrice: 3800,
         pThumbnail: "list-pastries8.jpg",
         plike:false,
         category:"pastries"
