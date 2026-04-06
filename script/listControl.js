@@ -21,17 +21,19 @@ let pagyTitleOfListHtml = {
 document.addEventListener("DOMContentLoaded",()=>{
 
     let category = getParam("cate") || "sandwitch"
-    
-    if(category === "bread"){
-        document.querySelector(".sub-banner").style.backgroundImage = "url(./img/bg-list2.jpg)";
-    }
-    if(category === "pastries"){
-        document.querySelector(".sub-banner").style.backgroundImage = "url(./img/bg-list3.jpg)";
-    }
-    if(category === "drink"){
-        document.querySelector(".sub-banner").style.backgroundImage = "url(./img/bg-list4.jpg)";
-    }
+    const subBanner = document.querySelector(".sub-banner");
+    // if(category === "bread"){
+    //     document.querySelector(".sub-banner").style.backgroundImage = "url(./img/bg-list2.jpg)";
+    // }
+    // if(category === "pastries"){
+    //     document.querySelector(".sub-banner").style.backgroundImage = "url(./img/bg-list3.jpg)";
+    // }
+    // if(category === "drink"){
+    //     document.querySelector(".sub-banner").style.backgroundImage = "url(./img/bg-list4.jpg)";
+    // }
 
+    subBanner.classList.add(category);
+    
     document.querySelector(".title").innerHTML = `
             <div class="common-frame">
                 <h3>${pagyTitleOfListHtml[category].title}</h3>

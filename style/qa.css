@@ -1,0 +1,227 @@
+.sub-banner{
+    height:400px;
+    background:
+    linear-gradient(45deg,rgba(0, 0, 0, 0.406),rgba(0, 0, 0, 0.497)),
+    url(../img/sub-banner-come.jpg) no-repeat 50% 50% / cover;
+}
+.sub-banner .common-frame{
+    display: flex;
+    height: 100%;;
+    align-items: center;
+    justify-content: center;
+    color:#fff;
+}
+
+.container {
+  width: 1000px;
+  margin: var(--space-3x-large) auto;
+  
+}
+h3 {
+  text-align: center;
+  font-size: var(--fs-h3); 
+  font-weight: var(--fw-bold);
+  margin-bottom: var(--space-large);
+}
+.container > h3 {
+  text-align: center;
+  margin-bottom: var(--space-x-large);
+}
+.agree-box {
+  display: flex;
+  gap: var(--space-x-large);
+}
+.agree{
+    flex: 1;
+}
+.agree h4 {
+  margin-bottom: var(--space-small);
+}
+.box {
+  height: 140px;
+  border: 1px solid #ddd;
+  background: #f5f5f5;
+  overflow-y: auto;
+  padding: var(--space-small);
+  font-size: var(--fs-det);
+  color: #666;
+}
+.section-title {
+  margin-top: var(--space-3x-large);
+  font-size: var(--fs-h3);
+  font-weight: bold;
+}
+.title-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.required-text {
+  font-size: var(--fs-det);
+  color: #999;
+}
+.required-text::before {
+  content: "* ";
+  color: var(--point-color);
+}
+table {
+  width: 100%;
+  border-top: 2px solid #333;
+  margin-top: var(--space-normal);
+}
+
+th {
+  width: 130px;
+  text-align: left;
+  padding: var(--space-small);
+  border-bottom: 1px solid #eee;
+}
+
+td {
+  padding: var(--space-small);
+  border-bottom: 1px solid #eee;
+}
+input, textarea, select {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding: var(--space-x-small);
+  font-size: var(--fs-bd1);
+  background: transparent;
+}
+input::placeholder {
+  font-size: var(--fs-det);
+}
+select {
+  font-size: var(--fs-det);
+}
+input:focus, textarea:focus {
+  outline: none;
+  border-bottom: 1px solid var(--point-color);
+}
+
+.row-flex {
+  gap: var(--space-small);
+  align-items: center;
+}
+
+.btn {
+  background: var(--point-color);
+  color: #fff;
+  border: none;
+  padding: var(--space-x-small) var(--space-normal);
+  border-radius: 25px;
+  cursor: pointer;
+}
+.btn-cancel{
+    background: #fff;
+    color: #333;
+    border: 1px solid #ccc;
+}
+
+.btn:hover {
+  background: var(--pm-color-01);
+}
+.btn-cancel:hover {
+  background: #f5f5f5;
+}
+
+.btns {
+  text-align: center;
+  margin-top: var(--space-3x-large);
+}
+
+button {
+  border-radius: 25px;
+  border: 1px solid #ccc;
+  background: white;
+}
+
+textarea {
+  height: 180px;
+  width: 100%;
+  resize: none;
+  box-sizing: border-box;
+}
+.star {
+  color:var(--point-color);
+  margin-left: 4px;
+}
+
+@media (max-width:1440px){
+    .sub-banner{
+        height:500px;
+    }
+    .container {
+        gap: var(--space-normal);
+    }
+    .agree-box {
+        gap: var(--space-large);
+    }
+    table th {
+        width: 120px;
+    }
+}
+
+
+@media (max-width:1440px){
+    .sub-banner{
+        height:500px;
+    }
+    .container {
+        gap: var(--space-normal);
+    }
+    .agree-box {
+        gap: var(--space-large);
+    }
+    table th {
+        width: 120px;
+    }
+}
+
+
+@media (max-width:768px){
+    .sub-banner{
+        height:600px;
+        text-align: center;
+    }
+    .container {
+        width: 90%;
+        /* margin: var(--space-x-large) auto; */ 
+        gap:var(--space-large);
+        flex-direction: column;
+    }
+    h3 {
+        font-size: var(--fs-h3);
+    }
+    .agree-box {
+        flex-direction: column;
+        gap: var(--space-large);
+    }
+    .box {
+        height: 120px;
+    }
+    .title-row {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: var(--space-x-small);
+    }
+    table th {
+        width: 100px;
+        font-size: var(--fs-det);
+    }
+    table td {
+        font-size: var(--fs-det);
+    }
+    input, textarea, select {
+        font-size: var(--fs-det);
+    }
+    .row-flex {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .btns {
+        margin-top: var(--space-x-large);
+    }
+}
+
+

@@ -73,6 +73,7 @@
 @media (max-width:1440px){
     .sub-banner{
         height:500px;
+        background: url(../img/sub-banner-event-tab.jpg) no-repeat 50% 50% / cover;
     }
     .event1-content{
         gap:var(--space-normal);
@@ -89,6 +90,7 @@
     .sub-banner{
         height:600px;
         text-align: center;
+        background: url("../img/sub-banner-event-mo.jpg") no-repeat 50% 50% / cover;
     }
     .event1-content{
         flex-direction: column;

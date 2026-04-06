@@ -94,8 +94,15 @@
 @media (max-width:768px){
     .sub-banner{
         height: 600px;
-        
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: cover;
     }
+    .sub-banner.sandwitch { background-image: url(../img/bg-list-mo.jpg); }
+    .sub-banner.bread{ background-image: url(../img/bg-list2-mo.jpg); }
+    .sub-banner.pastries{ background-image: url(../img/bg-list3-mo.jpg); }
+    .sub-banner.drink{ background-image: url(../img/bg-list4-mo.jpg); }
+
     .list-grid{
     grid-template-columns: repeat(2,1fr);
     }

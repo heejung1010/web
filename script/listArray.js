@@ -169,7 +169,7 @@ let listArray = [
         pName:"천연발효종 식빵",
         pDesc:"결이 부드럽게 풀어지는 포근한 텍스처",
         pPrice: 5000,
-        pThumbnail: "list-bread5.jpg",
+        pThumbnail: "list-bread6.jpg",
         plike:false,
         category:"bread"
     },
@@ -178,7 +178,7 @@ let listArray = [
         pName:"통밀 식빵",
         pDesc:"통밀의 고소함과 담백함이 균형 잡힌 깊은 맛",
         pPrice: 5500,
-        pThumbnail: "list-bread6.jpg",
+        pThumbnail: "list-bread7.jpg",
         plike:false,
         category:"bread"
     },
@@ -187,7 +187,7 @@ let listArray = [
         pName:"바게트",
         pDesc:"바삭한 크러스트와 살아있는 기공의 정통 식감",
         pPrice: 3800,
-        pThumbnail: "list-bread6.jpg",
+        pThumbnail: "list-bread8.jpg",
         plike:false,
         category:"bread"
     },
