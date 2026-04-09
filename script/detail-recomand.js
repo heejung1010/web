@@ -1,9 +1,17 @@
 document.addEventListener("DOMContentLoaded",()=>{
 
+    // 현재 상품의 카테고리 가져오기
+    let productId = getParam("pid")
+    const currentProduct = listArray.find(item=>item.pid == productId)
+    const currentCategory = currentProduct?.category || "sandwitch"
+
+    // 같은 카테고리의 상품만 필터링
+    const filteredArray = listArray.filter(item => item.category === currentCategory)
+
     // ul태그에 li태그의 형태로 상품 데이터를 넣는 소스코드
     const list = document.querySelector(".list-grid")
     let result = ""
-    listArray.forEach(item=>{
+    filteredArray.forEach(item=>{
         result += `
         <li>
             <a href="./detail.html?pid=${item.pid}">

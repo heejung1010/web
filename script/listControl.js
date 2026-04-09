@@ -22,15 +22,15 @@ document.addEventListener("DOMContentLoaded",()=>{
 
     let category = getParam("cate") || "sandwitch"
     const subBanner = document.querySelector(".sub-banner");
-    // if(category === "bread"){
-    //     document.querySelector(".sub-banner").style.backgroundImage = "url(./img/bg-list2.jpg)";
-    // }
-    // if(category === "pastries"){
-    //     document.querySelector(".sub-banner").style.backgroundImage = "url(./img/bg-list3.jpg)";
-    // }
-    // if(category === "drink"){
-    //     document.querySelector(".sub-banner").style.backgroundImage = "url(./img/bg-list4.jpg)";
-    // }
+    if(category === "bread"){
+        document.querySelector(".sub-banner").style.backgroundImage = "url(./img/bg-list2.jpg)";
+    }
+    if(category === "pastries"){
+        document.querySelector(".sub-banner").style.backgroundImage = "url(./img/bg-list3.jpg)";
+    }
+    if(category === "drink"){
+        document.querySelector(".sub-banner").style.backgroundImage = "url(./img/bg-list4.jpg)";
+    }
 
     subBanner.classList.add(category);
     

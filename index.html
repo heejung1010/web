@@ -8,6 +8,7 @@
     <!-- 페이지 레이아웃 -->
      <script src="./script/header.js"></script>
     <script src="./script/include.js"></script>
+    <script src="./script/getParm.js"></script>
     
     <link rel="stylesheet" href="./style/index.css">
     
@@ -82,7 +83,7 @@
                         </figure>
                         <h4>잠봉뵈르</h4>
                         <p class="fwm">수제 잠봉 햄과 프랑스산 버터로 완성한 클래식한 조화</p>
-                        <button class="btn-add">+ 담기</button>
+                        <button class="btn-add" data-pid="0">+ 담기</button>
                     </div>
                     <div class="swiper-slide">
                         <figure>
@@ -90,7 +91,7 @@
                         </figure>
                         <h4>아보카도 에그</h4>
                         <p class="fwm">크리미한 아보카도와 반숙 에그가 어우러진 부드러운 식감</p>
-                        <button class="btn-add">+ 담기</button>
+                        <button class="btn-add" data-pid="1">+ 담기</button>
                     </div>
                     <div class="swiper-slide">
                         <figure>
@@ -98,7 +99,7 @@
                         </figure>
                         <h4>치킨 페스토</h4>
                         <p class="fwm">허브 페스토와 촉촉한 치킨으로 산뜻하게 즐기는 풍미</p>
-                        <button class="btn-add">+ 담기</button>
+                        <button class="btn-add" data-pid="2">+ 담기</button>
                     </div>
                     <div class="swiper-slide">
                        <figure>
@@ -106,7 +107,7 @@
                         </figure>
                         <h4>브리 무화과 발사믹</h4>
                         <p class="fwm">브리 치즈와 제철 무화과, 발사믹이 어우러진 달콤한 조화</p>
-                        <button class="btn-add">+ 담기</button>
+                        <button class="btn-add" data-pid="4">+ 담기</button>
                     </div>
                     <div class="swiper-slide">
                        <figure>
@@ -114,7 +115,7 @@
                         </figure>
                         <h4>레몬 로스트 치킨</h4>
                         <p class="fwm">레몬 크림소스와 로스트 치킨의 상큼한 밸런스</p>
-                        <button class="btn-add">+ 담기</button>
+                        <button class="btn-add" data-pid="5">+ 담기</button>
                     </div>
                     <div class="swiper-slide">
                        <figure>
@@ -122,7 +123,7 @@
                         </figure>
                         <h4>발사믹 머쉬룸 리코타</h4>
                         <p class="fwm">발사믹 머쉬룸과 리코타 치즈의 깊고 고소한 풍미</p>
-                        <button class="btn-add">+ 담기</button>
+                        <button class="btn-add" data-pid="3">+ 담기</button>
                     </div>
                 </div>
             </div>
@@ -151,7 +152,7 @@
         const bestMenuSlider = new Swiper(".best-menu-slider",{
             
             autoplay: {
-            delay: 2000, 
+            delay: 1000, 
             disableOnInteraction: false,
             },
             loop: true,
@@ -175,6 +176,14 @@
                     spaceBetween: 20,
                 }
             }
+        })
+
+        // 담기 버튼 클릭 이벤트
+        document.querySelectorAll(".btn-add").forEach(btn => {
+            btn.addEventListener("click", (e) => {
+                const pid = e.target.dataset.pid;
+                window.location.href = `./detail.html?pid=${pid}`;
+            })
         })
     </script>
     </div>
@@ -235,7 +244,7 @@
             <div class="common-frame">
                 <h1>잘 되는 매장에는, 구조가 있습니다.</h1>
                 <p class="fwm">빠른 회전율, 명확한 타겟, 단순한 운영. <br> 브레드온은 이미 검증된 구조입니다.</p>
-                <a href="#" class="btn-style">가맹 상담 신청 <img src="./img/arrow-btn.svg" alt="바로가기 화살표"></a>
+                <a href="./qa.html" class="btn-style">가맹 상담 신청 <img src="./img/arrow-btn.svg" alt="바로가기 화살표"></a>
                 <h3 class="font-point">BREAD:ON 선택해야 하는 이유</h3>
                 <ul class="why">
                     <li>
