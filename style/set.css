@@ -38,81 +38,64 @@
 .menu-list {
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    gap: var(--space-x-large) var(--space-normal);
-    list-style: none;
-    margin: 0 auto;
-    justify-items: center;
+    gap: var(--space-normal) var(--space-normal);
 }
 .set-wrap{
     margin-bottom: var(--space-3x-large);
 }
 .menu-item {
-  width: 250px;
   border-radius: 10px;
   overflow: hidden;
   cursor: pointer;
   position: relative;
   transition: all 0.3s ease;
   border: 1px solid var(--point-color);
-  margin-bottom: var(--space-3x-large);
 }
 
 .menu-item .content h4 {
     margin-bottom: var(--space-small);
     overflow: hidden;
-}
+  }
 .menu-item .content p {
     color: #666;
-    margin-bottom: var(--space-small);
-    line-height: 1.5;
+    margin-bottom: var(--space-normal);
 }
 .menu-item .content p+p{
     font-size: var(--fs-det);
 }
-
-
-/* 이미지 */
 .menu-item img {
   width: 100%;
   display: block;
+  margin-bottom: var(--space-small);
 }
 .overlay-content {
   display: flex;
   flex-direction: column; 
   align-items: center;
-  gap: 10px;
 }
 .overlay img {
   width: 100%;
-  max-width: auto;
   transform: scale(0.8);
   transition: 0.3s;
 }
 
 .overlay p {
-  margin: 0;
-  font-size: 14px;
-  font-weight: bold;
+  font-size: 15px;
+  padding: 20px;
 }
 
 .menu-item:hover .overlay img {
   transform: scale(1);
 }
-/* 기본 텍스트 영역 */
 .content {
-  padding: 10px;
-  background: white;
   text-align: center;
   transition: 0.3s;
+  padding: 20px;
 }
-
-/* hover 효과 (카드 살짝 뜸) */
 .menu-item:hover {
   transform: translateY(-10px);
   box-shadow: 0 10px 20px rgba(0,0,0,0.15);
 }
-
-/* 초록색 덮는 박스 */
 .overlay {
   position: absolute;
   top: 0;
@@ -129,19 +112,37 @@
   opacity: 0;
   transition: 0.3s;
 }
-
 .overlay-content {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
 }
-
-/* 🔥 hover 시 */
 .menu-item:hover .overlay {
   opacity: 1;
 }
 
 .menu-item:hover .content {
   opacity: 0;
+}
+
+@media (max-width:1024px){
+
+  .menu-list {
+      grid-template-columns: repeat(3,1fr);
+  }
+}
+
+@media (max-width:768px){
+
+  .menu-list {
+      grid-template-columns: repeat(2,1fr);
+  }
+}
+
+@media (max-width:400px){
+
+  .menu-list {
+      grid-template-columns: repeat(1,1fr);
+  }
 }

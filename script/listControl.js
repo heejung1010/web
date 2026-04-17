@@ -1,19 +1,27 @@
 let pagyTitleOfListHtml = {
     sandwitch:{
         title:"Sandwiches",
-        desc:"갓 구운 빵으로 만든 샌드위치"
+        desc:"갓 구운 빵으로 만든 샌드위치",
+        bannerPc:"bg-list.jpg",
+        bannerMo:"bg-list-mo.jpg"
     },
     bread:{
         title:"Bread",
-        desc:"천천히 발효한 깊은 풍미의 빵"
+        desc:"천천히 발효한 깊은 풍미의 빵",
+        bannerPc:"bg-list2.jpg",
+        bannerMo:"bg-list2-mo.jpg"
     },
     pastries:{
         title:"Pastries",
-        desc:"천연발효의 기다림으로 빚은 속 편한 순수 구움과자"
+        desc:"천연발효의 기다림으로 빚은 속 편한 순수 구움과자",
+        bannerPc:"bg-list3.jpg",
+        bannerMo:"bg-list3-mo.jpg"
     },
     drink:{
         title:"Drinks",
-        desc:"한 잔의 여유"
+        desc:"한 잔의 여유",
+        bannerPc:"bg-list4.jpg",
+        bannerMo:"bg-list4-mo.jpg"
     }
 }
 
@@ -22,6 +30,9 @@ document.addEventListener("DOMContentLoaded",()=>{
 
     let category = getParam("cate") || "sandwitch"
     const subBanner = document.querySelector(".sub-banner");
+    if(category === "sandwitch"){
+        document.querySelector(".sub-banner").style.backgroundImage = "url(./img/bg-list.jpg)";
+    }
     if(category === "bread"){
         document.querySelector(".sub-banner").style.backgroundImage = "url(./img/bg-list2.jpg)";
     }
