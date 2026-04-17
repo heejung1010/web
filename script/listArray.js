@@ -126,6 +126,7 @@ let listArray = [
         pPrice: 3500,
         pThumbnail: "list-bread1.jpg",
         plike:false,
+        pDetailImg:"detail-bread1.jpg",
         category:"bread"
     },
     {
@@ -135,6 +136,7 @@ let listArray = [
         pPrice: 4000,
         pThumbnail: "list-bread2.jpg",
         plike:false,
+        pDetailImg:"detail-bread2.jpg",
         category:"bread"
     },
     {
@@ -144,6 +146,7 @@ let listArray = [
         pPrice: 4000,
         pThumbnail: "list-bread3.jpg",
         plike:false,
+        pDetailImg:"detail-bread3.jpg",
         category:"bread"
     },
     {
@@ -153,6 +156,7 @@ let listArray = [
         pPrice: 4500,
         pThumbnail: "list-bread4.jpg",
         plike:false,
+        pDetailImg:"detail-bread4.jpg",
         category:"bread"
     },
     {
@@ -162,6 +166,7 @@ let listArray = [
         pPrice: 3500,
         pThumbnail: "list-bread5.jpg",
         plike:false,
+        pDetailImg:"detail-bread5.jpg",
         category:"bread"
     },
     {
@@ -171,6 +176,7 @@ let listArray = [
         pPrice: 5000,
         pThumbnail: "list-bread6.jpg",
         plike:false,
+        pDetailImg:"detail-bread6.jpg",
         category:"bread"
     },
     {
@@ -180,6 +186,7 @@ let listArray = [
         pPrice: 5500,
         pThumbnail: "list-bread7.jpg",
         plike:false,
+        pDetailImg:"detail-bread7.jpg",
         category:"bread"
     },
     {
@@ -189,6 +196,7 @@ let listArray = [
         pPrice: 3800,
         pThumbnail: "list-bread8.jpg",
         plike:false,
+        pDetailImg:"detail-bread8.jpg",
         category:"bread"
     },
     {
@@ -198,6 +206,7 @@ let listArray = [
         pPrice: 2800,
         pThumbnail: "list-pastries1.jpg",
         plike:false,
+        pDetailImg:"detail-pastries1.jpg",
         category:"pastries"
     },
     {
@@ -207,6 +216,7 @@ let listArray = [
         pPrice: 2800,
         pThumbnail: "list-pastries2.jpg",
         plike:false,
+        pDetailImg:"detail-pastries2.jpg",
         category:"pastries"
     },
     {
@@ -216,6 +226,7 @@ let listArray = [
         pPrice: 3000,
         pThumbnail: "list-pastries3.jpg",
         plike:false,
+        pDetailImg:"detail-pastries3.jpg",
         category:"pastries"
     },
     {
@@ -225,6 +236,7 @@ let listArray = [
         pPrice: 3300,
         pThumbnail: "list-pastries4.jpg",
         plike:false,
+        pDetailImg:"detail-pastries4.jpg",
         category:"pastries"
     },
     {
@@ -234,6 +246,7 @@ let listArray = [
         pPrice: 5000,
         pThumbnail: "list-pastries5.jpg",
         plike:false,
+        pDetailImg:"detail-pastries5.jpg",
         category:"pastries"
     },
     {
@@ -243,6 +256,7 @@ let listArray = [
         pPrice: 3800,
         pThumbnail: "list-pastries6.jpg",
         plike:false,
+        pDetailImg:"detail-pastries6.jpg",
         category:"pastries"
     },
     {
@@ -252,6 +266,7 @@ let listArray = [
         pPrice: 3500,
         pThumbnail: "list-pastries7.jpg",
         plike:false,
+        pDetailImg:"detail-pastries7.jpg",
         category:"pastries"
     },
     {
@@ -261,6 +276,7 @@ let listArray = [
         pPrice: 3800,
         pThumbnail: "list-pastries8.jpg",
         plike:false,
+        pDetailImg:"detail-pastries8.jpg",
         category:"pastries"
     },
     {
@@ -270,6 +286,7 @@ let listArray = [
         pPrice: 2000,
         pThumbnail: "list-drink1.jpg",
         plike:false,
+        pDetailImg:"detail-drink1.jpg",
         category:"drink"
     },
     {
@@ -279,6 +296,7 @@ let listArray = [
         pPrice: 2500,
         pThumbnail: "list-drink2.jpg",
         plike:false,
+        pDetailImg:"detail-drink2.jpg",
         category:"drink"
     },
     {
@@ -288,6 +306,7 @@ let listArray = [
         pPrice: 2800,
         pThumbnail: "list-drink3.jpg",
         plike:false,
+        pDetailImg:"detail-drink3.jpg",
         category:"drink"
     },
     {
@@ -297,6 +316,7 @@ let listArray = [
         pPrice: 2800,
         pThumbnail: "list-drink4.jpg",
         plike:false,
+        pDetailImg:"detail-drink4.jpg",
         category:"drink"
     },
     {
@@ -306,6 +326,7 @@ let listArray = [
         pPrice: 2500,
         pThumbnail: "list-drink5.jpg",
         plike:false,
+        pDetailImg:"detail-drink5.jpg",
         category:"drink"
     },
     {
@@ -315,6 +336,7 @@ let listArray = [
         pPrice: 3000,
         pThumbnail: "list-drink6.jpg",
         plike:false,
+        pDetailImg:"detail-drink6.jpg",
         category:"drink"
     }
     
