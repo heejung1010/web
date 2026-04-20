@@ -45,6 +45,7 @@ h3 {
   padding: var(--space-small);
   font-size: var(--fs-det);
   color: #666;
+  margin-bottom: 1rem;
 }
 .section-title {
   margin-top: var(--space-3x-large);
@@ -68,6 +69,7 @@ table {
   width: 100%;
   border-top: 2px solid #333;
   margin-top: var(--space-normal);
+  margin-bottom: var(--space-normal);
 }
 
 th {
@@ -78,15 +80,15 @@ th {
 }
 
 td {
-  padding: var(--space-small);
+  padding: var(--space-normal);
   border-bottom: 1px solid #eee;
 }
 input, textarea, select {
   border: none;
   border-bottom: 1px solid #ccc;
-  padding: var(--space-x-small);
-  font-size: var(--fs-bd1);
+  /* padding: var(--space-small); */
   background: transparent;
+  margin-bottom: var(--space-small);
 }
 input::placeholder {
   font-size: var(--fs-det);
@@ -186,7 +188,6 @@ textarea {
     }
     .container {
         width: 90%;
-        /* margin: var(--space-x-large) auto; */ 
         gap:var(--space-large);
         flex-direction: column;
     }
@@ -203,7 +204,6 @@ textarea {
     .title-row {
         flex-direction: column;
         align-items: flex-start;
-        gap: var(--space-x-small);
     }
     table th {
         width: 100px;
