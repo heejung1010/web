@@ -1,5 +1,5 @@
 .course{
-    padding: var(--space-3x-large);
+    padding-top: var(--space-3x-large);
     padding-bottom: var(--space-3x-large);
 }
 .course h3{
